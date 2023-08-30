@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql2");
+require('dotenv').config();
 
 
 //Using .ENV which is in the git ignore for the following. 
